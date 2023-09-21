@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "obs-base-apr"
+  annotations:
+    github.com/project-slug: veecode-platform/obs-base-apr
+    backstage.io/techdocs-ref: dir:.
+    vault.io/secrets-path: devportal
+spec:
+  type: devops
+  lifecycle: experimental
+  owner: "group:default/admin"
